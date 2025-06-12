@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="project-images/campus-connect-logo-no-text-1.webp">
+    <title>Admin Panel - Campus Connect</title>
+</head>
+<body class="admin-page">
+
+    <!-- Website's Logo -->
+    <div class="logo">
+        <img src="project-images/campus-connect-logo.webp" alt="Campus Connect Logo">
+    </div>
+
+    <!-- Navigation -->
+    <nav class="primary-navigation">
+        <ul class="nav-lists">
+            <li class="list"><a href="index.html" class="link">HOME</a></li>
+            <li class="list"><a href="events.html" class="link">EVENTS</a></li>
+            <li class="list"><a href="internships.html" class="link">INTERNSHIPS</a></li>
+            <li class="list"><a href="admin.html" class="link">ADMIN</a></li>
+        </ul>
+    </nav>
+
+    <!-- Admin Panel -->
+    <main>
+        <section class="admin-section">
+            <h1>Admin Control Panel</h1>
+
+            <div class="admin-forms">
+
+                <!-- Add Event Form -->
+                <h2>Add New Event</h2>
+                <form id="add-event-form">
+                    <label>Event Title:</label><br>
+                    <input type="text" name="event-title"><br>
+
+                    <label>Event Date:</label><br>
+                    <input type="date" name="event-date"><br>
+
+                    <label>Venue:</label><br>
+                    <input type="text" name="event-venue"><br>
+
+                    <label>Event Image URL:</label><br>
+                    <input type="text" name="event-image"><br>
+
+                    <button type="submit">Add Event</button>
+                </form>
+
+                <!-- Add Internship Form -->
+                <h2>Add New Internship</h2>
+                <form id="add-internship-form">
+                    <label>Position:</label><br>
+                    <input type="text" name="internship-position"><br>
+
+                    <label>Company:</label><br>
+                    <input type="text" name="internship-company"><br>
+
+                    <label>Location:</label><br>
+                    <input type="text" name="internship-location"><br>
+
+                    <label>Duration:</label><br>
+                    <input type="text" name="internship-duration"><br>
+
+                    <button type="submit">Add Internship</button>
+                </form>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <p>All copy rights are reserved by the team</p>
+            <h1><sup>&copy;</sup>Campus Connect</h1>
+        </div>
+    </footer>
+
+</body>
+</html>

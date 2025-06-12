@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../project-images/campus-connect-logo-no-text-1.webp">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Apply - Campus Connect</title>
+</head>
+<body class="apply-page">
+
+    <header class="dashboard-header">
+        <div class="logo">
+            <img src="../../project-images/campus-connect-logo.webp" alt="Campus Connect Logo">
+        </div>
+    </header>
+
+    <main>
+        <h1>Application Form</h1>
+
+        <form class="application-form">
+            <label for="pin-number">PIN Number:</label>
+            <input type="text" id="pin-number" readonly value="23624-AIM-015">
+
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" required>
+
+            <label for="year">Current Year:</label>
+            <select id="year" required>
+                <option value="">--Select--</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+            </select>
+
+            <label for="remarks">Remarks (optional):</label>
+            <textarea id="remarks" rows="4"></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+
+</body>
+</html>
